@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/stylenav.css">
+    <title>Proyecto integrador</title>
+</head>
+
+<body>
+    <header class="topheader">
+        <nav class="topnav">
+            <div>
+                <h4>{V/L}</h4>
+            </div>
+            <button class="open-menu" aria-label="Abrir menú">
+                <img src="images/menu.png" alt="abrir menu" height="20" width="20">
+            </button>
+            <ul class="menu">
+                <button class="close-menu" aria-label="Cerrar menú">
+                    <img src="images/cerrar_ventana.png" alt="cerrar menu" height="20" width="20">
+                </button>
+
+                <li><a href="#inicio" class="selected">
+                        <h4>INICIO</h4>
+                    </a></li>
+                <li><a href="#aboutme">
+                        <h4>ABOUT ME</h4>
+                    </a></li>
+                <li><a href="#contact">
+                        <h4>CONTACT ME</h4>
+                    </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="grilla" id="inicio">
+        <h1>VALERIA RIVEROS</h1>
+        <p> HI, I'M DEVELOPER!!</p>
+        <!---<img src="images/imagenpixelada.png" alt="pixeladas" height="300" width="200">-->
+        <img src="images/fondo.jpg" alt="fondo" height="500" width="500">
+        <p> Welcome to my portfolio.</p>
+    </section>
+
+    <section class="grilla2" id="aboutme">
+        <div class="titulo">
+            <p id="sobre">ABOUT ME!!!</p>
+            <p> THE ODYSSEY OF A FULL-STACK WEB DEVELOPER!</p>
+
+        </div>
+        <div class="electricidad"><img src="images/java_logo.png" alt="java_logo" width="100px" height="150px">
+            <h3>JAVA</h3>
+        </div>
+        <div class="fuego"><img src="images/mysql-logo.png" alt="mysql-logo" width="100px" height="150px">
+            <h3>MySQL</h3>
+        </div>
+        <div class="planta"><img src="images/spring-boot-logo.png" alt="spring-boot-logo" width="100px" height="150px">
+            <h3>Spring boot</h3>
+        </div>
+        <div class="agua"><img src="images/css.png" alt="css" width="100px" height="150px">
+            <h3>CSS</h3>
+        </div>
+        <div class="agua"><img src="images/html_logo.png" alt="html" width="100px" height="150px">
+            <h3>HTML</h3>
+        </div>
+        <div class="normal"><img src="images/javascript_logo.png" width="100px" height="150px" alt="javascript_logo">
+            <h3>Javascript</h3>
+        </div>
+        <div class="veneno"><img src="images/react_logo.png" alt="react_logo" width="100px" height="150px">
+            <h3>React</h3>
+        </div>
+    </section>
+
+    <section class="grilla3" id="contact">
+        <div id="app">
+            <p id="sobre">to contact me!!</p>
+
+            <div class="login_container">
+                <div class="stick"></div>
+                <div class="stick"></div>
+                <h2><span>CONTACT MESSAGE<span></h2>
+                <section id="login" class="form-control">
+                    <input id="usuario" type="text" value="" placeholder="Username">
+                    <h5 id="usuarioNoValido">
+                        </h>
+                        <input id="email" type="email" value="" placeholder="E-mail">
+                        <h5 id="correoNoValido">
+                            </h>
+                            <input id="mensaje" type="text" value="" placeholder="Place your message here...">
+                            <h5 id="mensajeVacio">
+                                </h>
+                                <button id="btnIngresar">Send</button>
+                </section>
+                <section id="logout" class="hidden">
+                    <button id="btnSalir">Login</button>
+                </section>
+                <!--<img src="images/imagenpixelada.png" alt="pixeladas" height="100px" width="150px">-->
+            </div>
+        </div>
+    </section>
+
+    <section class="grilla2" id="bienvenida">
+        <h1 id="usuarioLogeado"></h1>
+    </section>
+
+    <footer>
+        <h4>&copy;Copyright 2022 Valeria-Riveros</h4>
+        <a href="https://www.linkedin.com/in/valeria-riveros"><img src="images/linkedin.png" alt="linkedin" width="40px"
+                height="40px"></a>
+        <img src="images/whatsapp.png" alt="whatsapp" width="40px" height="40px">
+        <img src="images/gmail.png" alt="gmail" width="40px" height="40px">
+        <a href="https://github.com/ValRiv"><img src="images/icons8-github-30.png" alt="github" width="50px"
+                height="50px"></a>
+    </footer>
+    <script defer type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
